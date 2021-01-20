@@ -1,0 +1,74 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">agni_slides</custom-type>
+		<custom-type translate="1">revslider</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">types</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="halena_options">
+			<key name="page-agni-block-popup"/>
+			<key name="page-agni-shortnote"/>
+			<key name="logo-1">
+				<key name="url"/>
+				<key name="id"/>
+				<key name="height"/>
+				<key name="width"/>
+				<key name="thumbnail"/>
+			</key>
+			<key name="logo-2">
+				<key name="url"/>
+				<key name="id"/>
+				<key name="height"/>
+				<key name="width"/>
+				<key name="thumbnail"/>
+			</key>
+			<key name="logo-description"/>
+			<key name="header-menu-name"/>
+			<key name="header-menu-name-active"/>
+			<key name="header-top-email"/>
+			<key name="header-top-number"/>
+			<key name="header-search-box-text"/>
+			<key name="header-lang-name"/>
+			<key name="header-lang-list"/>
+			<key name="footer-logo">
+				<key name="url"/>
+				<key name="id"/>
+				<key name="height"/>
+				<key name="width"/>
+				<key name="thumbnail"/>
+			</key>
+			<key name="footer-text"/>
+			<key name="footer-contentblock-choice"/>
+			<key name="blog-navigation-ifs-load-text"/>
+			<key name="blog-navigation-ifs-finish-text"/>
+			<key name="blog-navigation-ifs-btn-text"/>
+			<key name="blog-single-prev"/>
+			<key name="blog-single-next"/>
+			<key name="blog-sharing-label"/>
+			<key name="portfolio-navigation-ifs-load-text"/>
+			<key name="portfolio-navigation-ifs-finish-text"/>
+			<key name="portfolio-navigation-ifs-btn-text"/>
+			<key name="portfolio-single-prev"/>
+			<key name="portfolio-single-next"/>
+			<key name="shop-sale-flash-off-text"/>
+			<key name="shop-out-of-stock-label"/>
+			<key name="shop-navigation-ifs-load-text"/>
+			<key name="shop-navigation-ifs-finish-text"/>
+			<key name="shop-navigation-ifs-btn-text"/>
+			<key name="shop-sidebar-cart-title"/>
+			<key name="shop-sidebar-cart-empty-text"/>
+			<key name="shop-sidebar-cart-subtotal-label"/>
+			<key name="shop-sidebar-cart-cart-label"/>
+			<key name="shop-sidebar-cart-checkout-label"/>
+			<key name="shop-sidebar-cart-shop-label"/>
+			<key name="shop-single-cart-label"/>
+			<key name="404-contentblock-choice"/>
+			<key name="404-title"/>
+			<key name="404-description-text"/>
+			<key name="maintenance-mode-custom"/>
+		</key>
+	</admin-texts>
+</wpml-config>

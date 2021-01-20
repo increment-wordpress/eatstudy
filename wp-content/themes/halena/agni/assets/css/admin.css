@@ -1,0 +1,247 @@
+
+/* Ajax Product filter styles */
+/* Attribute filter */
+.hidden_by_attr{
+  display: none;
+}
+.attr-type-table{
+  width: 70%;
+}
+.attr-type-table th{
+  text-align: left;
+  width: 50%;
+}
+.attr-type-color-table{
+  width: 100%;
+}
+.attr-type-color-table th:first-child{
+  text-align: left;
+  width: 40%;
+}
+.attr-type-color-table th:last-child{
+  text-align: left;
+  width: 60%;
+}
+
+/* Price fitler */
+.price-list .min,
+.price-list .max {
+  width: 15%;
+}
+.price-list .to {
+  width: 15%;
+}
+.price-list .min,
+.price-list .to,
+.price-list .max {
+  margin-right: 3%;
+}
+.remove-price-list {
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+
+/*#vc_settings-general .form-table tbody tr td label:nth-child(7), #vc_settings-general .form-table tbody tr td label:nth-child(9), #vc_settings-general .form-table tbody tr td label:nth-child(11), #vc_settings-general .form-table tbody tr td label:nth-child(13), #vc_settings-general .form-table tbody tr td br:nth-child(8), #vc_settings-general .form-table tbody tr td br:nth-child(10), #vc_settings-general .form-table tbody tr td br:nth-child(12), #vc_settings-general .form-table tbody tr td br:nth-child(14){
+  display:none;
+}*/
+
+.agni-welcome-page-wrap .halena-admin-badge{
+  background-image: url(../img/halena_admin_badge.png);
+  background-color: #ffffff;
+  color: #1e1e20;
+  background-size: auto 80px;
+}
+.agni-welcome-page-wrap .agni-welcome, .agni-welcome-page-wrap .agni-help{
+    max-width: 680px;
+    margin: auto;
+}
+.agni-welcome-page-wrap .agni-system-status{
+  margin-top: 40px;
+}
+.agni-welcome-page-wrap table{
+  margin-bottom: 20px;
+}
+.agni-welcome-page-wrap table tr td:first-child{
+  width: 33%;
+}
+.agni-welcome-page-wrap table td mark.yes {
+    color: #00ca00;
+    background-color: transparent;
+}
+.agni-welcome-page-wrap table td mark.error {
+    color: #ff0000;
+    background-color: transparent;
+}
+
+.taxonomy-category .cmb-th, .taxonomy-category .cmb-td, .taxonomy-types .cmb-th, .taxonomy-types .cmb-td, .taxonomy-product_cat .cmb-th, .taxonomy-product_cat .cmb-td{
+  padding: 0;
+}
+.taxonomy-category .cmb2-metabox, .taxonomy-types .cmb2-metabox, .taxonomy-product_cat .cmb2-metabox{
+  margin: 1em 0;
+}
+
+.vc_wrapper-param-type-agni_param_heading .wpb_element_label{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.vc_shortcode-edit-form-deprecated-message .wpb_element_wrapper .vc_message_box{
+  display: none;
+}
+.vc_element-icon[class*="-ios-"] {
+  background: none !important;
+  font-size: 45px;
+}
+.vc_ui-font-open-sans{
+  font-family: inherit !important;
+}
+.wpb_content_element > .wpb_element_wrapper > .wpb_element_title .vc_element-icon[class*="-ios-"]{
+  font-size: 24px !important;
+}
+
+#vc_ui-panel-add-element{
+  width:80% !important;
+  max-width: 1080px;
+}
+#vc_ui-panel-add-element .vc_ui-panel-header-container {
+    padding-left:40px !important;
+    padding-right:40px !important;
+}
+.vc_add-element-container .wpb-elements-list {
+  padding: 20px 40px !important;
+}
+#vc_ui-panel-add-element .vc_ui-panel-content-container, .vc_ui-panel-header-container {
+  background: #222222 !important;
+}
+.vc_add-element-container .wpb-content-layouts{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.vc_add-element-container .wpb-content-layouts li{
+  height:auto !important;
+  min-height:150px;
+  background: #222222 !important;
+  border:1px solid #333333 !important;
+  text-align: center;
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%;
+}
+.vc_ui-search-box input[type=search]{
+  color: #fff !important;
+  background-color: transparent;
+}
+.vc_ui-search-box input[type=search]:focus {
+    color: #fff !important;
+    box-shadow: none;
+}
+.vc_ui-font-open-sans.vc_ui-panel-window{
+  font-family: inherit !important;
+  z-index: 9999 !important;
+}
+.vc_add-element-container .wpb-content-layouts a, .vc_add-element-container .wpb-content-layouts a:focus, .vc_add-element-container .wpb-content-layouts a:hover, .vc_add-element-container .wpb-content-layouts a:visited {
+    color: #fff !important;
+}
+.vc_general.vc_ui-tabs-line>li {
+    color: #777;
+}
+.vc_general.vc_ui-tabs-line>.vc_active>.vc_ui-tabs-line-trigger {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+.vc_add-element-container .vc_element-icon{
+  display: block !important;
+  position: static !important;
+  color: #999999;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.vc_add-element-container .wpb-content-layouts a{
+  padding: 30px 20px !important;
+  font-weight: normal !important;
+}
+.vc_add-element-container .wpb-content-layouts a, .vc_add-element-container .wpb-content-layouts a:focus, .vc_add-element-container .wpb-content-layouts a:hover, .vc_add-element-container .wpb-content-layouts a:visited{
+  color:#000;
+}
+.vc_add-element-container .wpb-content-layouts a:focus{
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.vc_general.vc_ui-tabs-line .vc_ui-tabs-line-trigger{
+  border-radius: 0 !important;
+}
+.vc_ui-search-box input[type=search]{
+  border-radius: 0 !important;
+}
+.wpb_content_element > .wpb_element_wrapper > .wpb_element_title .vc_element-icon {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-bottom: 0 !important;
+    float: none !important;
+}
+.vc_add-element-container .wpb-content-layouts a .vc_element-description{
+  margin-top: 5px !important;
+}
+.vc-icons-selector i:before, .vc-icons-selector [class^=pe-7s-], .vc-icons-selector [class^=pe-7f-], .vc-icons-selector .fa{
+  line-height: inherit !important;
+}
+.vc-icons-selector .selector-button .fa{
+  line-height: 38px !important;
+}
+
+.vc-icons-selector i{
+    font-size: 20px !important;
+}
+.vc_properties-list input, .vc_properties-list select {
+    box-shadow: none !important;
+}
+.vc_properties-list select{
+  height: 40px !important;
+}
+.vc_ui-panel-header .vc_ui-panel-header-heading{
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.vc_ui-panel-header .vc_ui-panel-header-controls{
+  margin-top: 0 !important;
+}
+.vc_ui-panel-header .vc_ui-control-button .vc_ui-icon-pixel-close, .vc_ui-panel-header .vc_ui-control-button .vc_ui-icon-pixel-minimize{
+  margin: 5px 10px !important;
+}
+.vc_color-picker .wp-color-result{
+    height: 40px;
+    padding-left: 40px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+}
+.vc_color-picker .wp-color-result:after{
+  font-size: 14px;
+  line-height: 40px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 0;
+}
+.vc_color-picker .wp-color-result:hover:after{
+  border:0;
+}
+.vc_edit_form_elements input.wp-color-picker[type=text]{
+    padding: 4px 10px 3px !important;
+    height: 40px !important;
+}
+.vc_edit_form_elements .wpb_el_type_colorpicker .wp-picker-clear, .wpb_el_type_colorpicker .wp-picker-clear{
+  height: 40px;
+  line-height: 40px;
+  padding: 0 16px 1px;
+  font-size: 14px;
+}
+.vc_edit_form_elements .vc_column+.vc_column, .vc_edit_form_elements .vc_column-with-padding {
+    padding-top: 25px;
+}

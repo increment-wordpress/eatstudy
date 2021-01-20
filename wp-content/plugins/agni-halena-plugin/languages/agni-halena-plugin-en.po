@@ -1,0 +1,1174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Agni Halena\n"
+"POT-Creation-Date: 2020-05-28 03:05+0530\n"
+"PO-Revision-Date: 2020-05-28 03:05+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:14
+msgid "Custom Fonts"
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:51
+msgid "Custom Webfonts"
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:63
+msgid "Enter Font Name"
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:67
+msgid "Upload Webfont Files"
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:68
+msgid ""
+"Tip. you can add multiple files at once .eot, .woff, .svg, .ttf, .otf "
+"supported."
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:83
+#: inc/agni-typekit/agni-typekit.php:79
+msgid "Font List :"
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:84
+msgid "List of fonts in Custom Fonts directory."
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:90
+#: inc/agni-custom-fonts/agni-custom-fonts.php:96
+#: inc/agni-typekit/agni-typekit.php:95 inc/agni-typekit/agni-typekit.php:100
+msgid "Font"
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:90
+#: inc/agni-custom-fonts/agni-custom-fonts.php:96
+#: inc/agni-typekit/agni-typekit.php:95 inc/agni-typekit/agni-typekit.php:100
+msgid "Font Family"
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:90
+#: inc/agni-custom-fonts/agni-custom-fonts.php:96
+msgid "Manage"
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:132
+#: inc/agni-typekit/agni-typekit.php:143
+msgid "Font usage :"
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:133
+#: inc/agni-typekit/agni-typekit.php:144
+#, php-format
+msgid "Add your desire CSS codes at <a href=\"%s\">Custom CSS</a>"
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:141
+#: inc/agni-typekit/agni-typekit.php:152
+msgid "Instructions"
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:143
+msgid ""
+"Generate the Webfont at <a href=\"https://www.web-font-generator.com/\" "
+"target=\"blank\">Web Font Generator</a>."
+msgstr ""
+
+#: inc/agni-custom-fonts/agni-custom-fonts.php:144
+msgid ""
+"In case, you've few variations of same font, you should upload it with "
+"different name."
+msgstr ""
+
+#: inc/agni-maintenance/agni-maintenance-page.php:46
+msgid "&laquo; Back"
+msgstr ""
+
+#: inc/agni-maintenance/agni-maintenance-page.php:58
+msgid "WordPress &rsaquo; Error"
+msgstr ""
+
+#: inc/agni-maintenance/agni-maintenance-page.php:97
+msgid "We'll Be Right Back!"
+msgstr ""
+
+#: inc/agni-maintenance/agni-maintenance-page.php:98
+msgid ""
+"Sorry for the inconvenience. We're busy on making something cool for you."
+msgstr ""
+
+#: inc/agni-maintenance/agni-maintenance-page.php:98
+msgid "Please try after sometime."
+msgstr ""
+
+#: inc/agni-typekit/agni-typekit.php:51 inc/agni-typekit/agni-typekit.php:62
+msgid "Typekit Fonts"
+msgstr ""
+
+#: inc/agni-typekit/agni-typekit.php:51
+msgid "TypeKit Fonts"
+msgstr ""
+
+#: inc/agni-typekit/agni-typekit.php:69
+msgid "Enter Typekit Kit ID"
+msgstr ""
+
+#: inc/agni-typekit/agni-typekit.php:71
+msgid ""
+"See the instructions at <a href=\"#instructions\" target=\"blank\">bottom</a>"
+msgstr ""
+
+#: inc/agni-typekit/agni-typekit.php:74
+msgid "Save Typkit kit ID"
+msgstr ""
+
+#: inc/agni-typekit/agni-typekit.php:80
+msgid "List of font you're using on Typekit."
+msgstr ""
+
+#: inc/agni-typekit/agni-typekit.php:95 inc/agni-typekit/agni-typekit.php:100
+msgid "Variations"
+msgstr ""
+
+#: inc/agni-typekit/agni-typekit.php:95 inc/agni-typekit/agni-typekit.php:100
+#: inc/menu-image/menu-image.php:583
+msgid "URL"
+msgstr ""
+
+#: inc/agni-typekit/agni-typekit.php:130
+msgid "View on Typekit"
+msgstr ""
+
+#: inc/agni-typekit/agni-typekit.php:154
+msgid ""
+"Go to <a href=\"https://typekit.com/\" target=\"blank\">typekit.com</a> and "
+"register for an account"
+msgstr ""
+
+#: inc/agni-typekit/agni-typekit.php:155
+msgid "Choose a few fonts to add to your account and Publish them"
+msgstr ""
+
+#: inc/agni-typekit/agni-typekit.php:156
+msgid ""
+"Click Kit Editor at the top right and get your Typekit kit ID(at the bottom)"
+msgstr ""
+
+#: inc/ajax-product-filter/includes/functions.php:566
+#, php-format
+msgid "Choose %s"
+msgstr ""
+
+#: inc/ajax-product-filter/includes/functions.php:568
+msgid "Choose category"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-active-filter.php:13
+msgid "WC Ajax Active Filters"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-active-filter.php:14
+msgid "Shows active filters so users can see and deactivate them."
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-active-filter.php:83
+msgid "Search For: "
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-active-filter.php:87
+msgid "Orderby: "
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-active-filter.php:91
+msgid "Min Price: "
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-active-filter.php:95
+msgid "Max Price: "
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-active-filter.php:144
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:156
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:117
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:223
+#: inc/widgets/agni_widget_about_text.php:66
+#: inc/widgets/agni_widget_latest_posts.php:83
+#: inc/widgets/agni_widget_latest_works.php:101
+#: inc/widgets/agni_widget_social_icons.php:112
+msgid "Title:"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-active-filter.php:148
+msgid "Button Text:"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:13
+msgid "WC Ajax Product Filter by Attribute"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:14
+msgid "Filter woocommerce products by attribute."
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:164
+msgid "Attribute"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:174
+msgid "No attribute found!"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:179
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:121
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:227
+msgid "Display Type:"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:181
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:123
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:230
+msgid "List"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:182
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:124
+msgid "Dropdown"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:183
+msgid "Size"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:184
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:237
+msgid "Color"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:205
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:237
+msgid "Terms"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:205
+msgid "Label"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:259
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:128
+msgid "Query Type"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:261
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:130
+msgid "AND"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:262
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:131
+msgid "OR"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:267
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:136
+msgid "Enable multiple filter"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:271
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:140
+msgid "Show count"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:275
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:144
+msgid "Show hierarchy"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-attribute-filter.php:279
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:148
+msgid "Only show children of the current attribute"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:13
+msgid "WC Ajax Product Filter by Category"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-category-filter.php:14
+msgid "Filter woocommerce products by category."
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:13
+msgid "WC Ajax Product Filter by Price"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:14
+msgid "Filter woocommerce products by price."
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:229
+#: inc/custom-posttypes.php:131 inc/custom-posttypes.php:132
+#: inc/custom-posttypes.php:133
+msgid "Slider"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:235
+msgid "Show currency"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:241
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:249
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:261
+msgid "Min price"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:242
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:250
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:262
+msgid "to"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:243
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:251
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:263
+msgid "Max price"
+msgstr ""
+
+#: inc/ajax-product-filter/widgets/widget-price-filter.php:257
+msgid "Add"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:52
+msgid "Basic"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:56
+msgid "Advanced"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:60
+msgid "Extra Details"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:64
+msgid "Style"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:84
+msgid "Suggestions limit"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:87
+msgid "Maximum number of suggestions rows."
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:92
+msgid "Minimum characters"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:95
+msgid "Minimum number of characters required to trigger autosuggest."
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:100
+msgid "Show submit button"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:107
+msgid "Search submit button text"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:109
+msgid "To display a loupe icon leave this field empty."
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:110
+msgid "Search"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:114
+msgid "Search input placeholder"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:116
+#: inc/ajax-search-for-woocommerce/includes/search-form.php:8
+msgid "Search for products..."
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:120
+msgid "Show details box"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:123
+msgid ""
+"The Details box is an additional container for extended information. The "
+"details are changed dynamically when you hover the mouse over one of the "
+"suggestions."
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:130
+msgid "Product search"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:135
+msgid "Search in products content"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:141
+msgid "Search in products excerpt"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:147
+msgid "Search in products SKU"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:153
+msgid "Exclude 'out of stock' products"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:159
+msgid "Taxonomy search"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:164
+msgid "Show matching categories"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:170
+msgid "Show matching tags"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:176
+msgid "Suggestions output"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:181
+msgid "Show product image"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:187
+msgid "Show price"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:193
+msgid "Show product description"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:199
+msgid "Show SKU"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:219
+msgid "Category and tag details:"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:224
+msgid "Show"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:227
+msgid "All Product"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:228
+msgid "Featured Products"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:229
+msgid "On-sale Products"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:235
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:247
+msgid "Order by"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:238
+msgid "Date"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:239
+msgid "Price"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:240
+msgid "Random"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:241
+msgid "Sales"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:250
+msgid "DESC"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:251
+msgid "ASC"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:257
+msgid "Other"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:262
+msgid "Details box position"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:264
+msgid ""
+"If your search form is very close to the right window screen, then select "
+"left."
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:266
+msgid "Left"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:267
+msgid "Right"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:275
+msgid "Search form"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:280
+msgid "Search input background"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:286
+msgid "Search input text"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:292
+msgid "Search input border"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:298
+msgid "Search submit background"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:304
+msgid "Search submit text"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:310
+msgid "Suggestions"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:315
+msgid "Suggestion background"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:321
+msgid "Suggestion selected"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:327
+msgid "Text color"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:333
+msgid "Highlight color"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:339
+msgid "Border color"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:345
+msgid "Suggestions width"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:348
+msgid ""
+"Overvrite the suggestions container width. Leave this field empty to adjust "
+"the suggestions container width to the search input width."
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:353
+msgid "Preloader"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:358
+msgid "Show preloader"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/admin/settings/class-settings.php:364
+msgid "Upload preloader image"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/class-search.php:145
+msgid "No results"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/class-search.php:275
+#: inc/ajax-search-for-woocommerce/includes/class-search.php:328
+msgid "in"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/register-scripts.php:28
+msgctxt "For product badge: on sale"
+msgid "sale"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/register-scripts.php:29
+msgctxt "For product badge: featured"
+msgid "featured"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/search-form.php:22
+msgid "Products search"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/widget.php:19
+msgid "Ajax (live) search form for WooCommerce"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/widget.php:21
+msgid "Woo Ajax Search"
+msgstr ""
+
+#: inc/ajax-search-for-woocommerce/includes/widget.php:26
+#: inc/widgets/agni_widget_instagram_feed.php:110
+msgid "Title"
+msgstr ""
+
+#: inc/custom-posttypes.php:21
+msgctxt "Portfolio General Name"
+msgid "Portfolio"
+msgstr ""
+
+#: inc/custom-posttypes.php:22
+msgctxt "Portfolio Singular Name"
+msgid "Portfolio"
+msgstr ""
+
+#: inc/custom-posttypes.php:23
+msgid "Portfolio"
+msgstr ""
+
+#: inc/custom-posttypes.php:24
+msgid "Parent Item:"
+msgstr ""
+
+#: inc/custom-posttypes.php:25
+msgid "All Items"
+msgstr ""
+
+#: inc/custom-posttypes.php:26
+msgid "View Item"
+msgstr ""
+
+#: inc/custom-posttypes.php:27
+msgid "Add New Item"
+msgstr ""
+
+#: inc/custom-posttypes.php:28
+msgid "Add New"
+msgstr ""
+
+#: inc/custom-posttypes.php:29
+msgid "Edit Item"
+msgstr ""
+
+#: inc/custom-posttypes.php:30
+msgid "Update Item"
+msgstr ""
+
+#: inc/custom-posttypes.php:31
+msgid "Search Item"
+msgstr ""
+
+#: inc/custom-posttypes.php:32
+msgid "Not found"
+msgstr ""
+
+#: inc/custom-posttypes.php:33
+msgid "Not found in Trash"
+msgstr ""
+
+#: inc/custom-posttypes.php:71
+msgctxt "post type general name"
+msgid "Blocks"
+msgstr ""
+
+#: inc/custom-posttypes.php:72
+msgctxt "post type singular name"
+msgid "Block"
+msgstr ""
+
+#: inc/custom-posttypes.php:73 inc/custom-posttypes.php:74
+msgid "Add New Block"
+msgstr ""
+
+#: inc/custom-posttypes.php:75
+msgid "All Blocks"
+msgstr ""
+
+#: inc/custom-posttypes.php:76
+msgid "Edit Block"
+msgstr ""
+
+#: inc/custom-posttypes.php:77
+msgid "New Block"
+msgstr ""
+
+#: inc/custom-posttypes.php:78
+msgid "View Block"
+msgstr ""
+
+#: inc/custom-posttypes.php:79
+msgid "Search Blocks"
+msgstr ""
+
+#: inc/custom-posttypes.php:80 inc/custom-posttypes.php:81
+#: inc/custom-posttypes.php:82 inc/custom-posttypes.php:91
+msgid "Block"
+msgstr ""
+
+#: inc/custom-posttypes.php:83
+msgid "Blocks"
+msgstr ""
+
+#: inc/custom-posttypes.php:122
+msgctxt "post type general name"
+msgid "Sliders"
+msgstr ""
+
+#: inc/custom-posttypes.php:123
+msgctxt "post type singular name"
+msgid "Slider"
+msgstr ""
+
+#: inc/custom-posttypes.php:124 inc/custom-posttypes.php:125
+msgid "Add New Slider"
+msgstr ""
+
+#: inc/custom-posttypes.php:126
+msgid "All Sliders"
+msgstr ""
+
+#: inc/custom-posttypes.php:127
+msgid "Edit Slider"
+msgstr ""
+
+#: inc/custom-posttypes.php:128
+msgid "New Slider"
+msgstr ""
+
+#: inc/custom-posttypes.php:129
+msgid "View Slider"
+msgstr ""
+
+#: inc/custom-posttypes.php:130
+msgid "Search Sliders"
+msgstr ""
+
+#: inc/custom-posttypes.php:134
+msgid "Agni Slider"
+msgstr ""
+
+#: inc/custom-posttypes.php:142
+msgid "Slide"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:92
+msgid "Image"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:266
+msgid "Chose menu image"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:267
+msgid "Select"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:308
+msgid "Menu image"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:309
+msgid "Change menu item image"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:309
+msgid "Set menu item image"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:312
+msgid "Set image"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:313
+msgid "Remove image"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: inc/menu-image/menu-image.php:525
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: inc/menu-image/menu-image.php:529
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:542
+msgid "sub item"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:557
+msgid "Move up"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:570
+msgid "Move down"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:574
+msgid "Edit menu item"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:574
+msgid "Edit"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:590
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:596
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:603
+msgid "Open link in a new tab"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:608
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:614
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:625
+msgid "Description"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:627
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/menu-image/menu-image.php:632
+msgid "Move"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:633
+msgid "Up one"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:634
+msgid "Down one"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:637
+msgid "To the top"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:643
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:656
+msgid "Remove menu item"
+msgstr ""
+
+#: inc/menu-image/menu-image.php:657
+msgid "Cancel"
+msgstr ""
+
+#: inc/side-cart-woocommerce/xoo-wsc-content.php:59
+msgid "Remove"
+msgstr ""
+
+#: inc/side-cart-woocommerce/xoo-wsc.php:132
+msgid "Something went wrong"
+msgstr ""
+
+#: inc/vc_templates/vc_accordion_tab.php:5
+msgid "Section"
+msgstr ""
+
+#: inc/vc_templates/vc_accordion_tab.php:17
+msgid "Empty section. Edit page to add content here."
+msgstr ""
+
+#: inc/vc_templates/vc_tab.php:6
+msgid "Empty tab. Edit page to add content here."
+msgstr ""
+
+#: inc/widgets/agni_widget_about_text.php:21
+msgid "Halena: About Text"
+msgstr ""
+
+#: inc/widgets/agni_widget_about_text.php:24
+msgid ""
+"Extented version of text widget which allows you to set image & heading."
+msgstr ""
+
+#: inc/widgets/agni_widget_about_text.php:57
+msgid "About Me"
+msgstr ""
+
+#: inc/widgets/agni_widget_about_text.php:72
+msgid "Add Image"
+msgstr ""
+
+#: inc/widgets/agni_widget_about_text.php:75
+msgid "Heading:"
+msgstr ""
+
+#: inc/widgets/agni_widget_about_text.php:80
+msgid "Description:"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:21
+msgid "Halena: Instagram Widget"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:24
+msgid "Displays the latest Instagram photos."
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:101
+msgid "Instagram"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:101
+msgid "Follow Me!"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:111
+msgid "@username or #tag"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:112
+msgid "Number of photos"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:113
+msgid "Photo size"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:115
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:116
+msgid "Small"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:117
+msgid "Large"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:118
+msgid "Original"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:121
+msgid "Number of Columns"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:123
+msgid "1 Column"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:124
+msgid "2 Columns"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:125
+msgid "3 Columns"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:126
+msgid "4 Columns"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:127
+msgid "5 Columns"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:128
+msgid "6 Columns"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:131
+msgid "Open links in"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:133
+msgid "Current window (_self)"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:134
+msgid "New window (_blank)"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:137
+msgid "Link text"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:177
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:181
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:189
+#: inc/widgets/agni_widget_instagram_feed.php:197
+#: inc/widgets/agni_widget_instagram_feed.php:201
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:213
+msgid "Instagram Image"
+msgstr ""
+
+#: inc/widgets/agni_widget_instagram_feed.php:244
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: inc/widgets/agni_widget_latest_posts.php:21
+msgid "Halena: Latest Posts"
+msgstr ""
+
+#: inc/widgets/agni_widget_latest_posts.php:24
+msgid ""
+"Your site's most recent posts with unique layout of halena. You can also "
+"display the latest posts of particular category."
+msgstr ""
+
+#: inc/widgets/agni_widget_latest_posts.php:74
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/widgets/agni_widget_latest_posts.php:88
+#: inc/widgets/agni_widget_latest_works.php:106
+msgid "Show by category:"
+msgstr ""
+
+#: inc/widgets/agni_widget_latest_posts.php:90
+#: inc/widgets/agni_widget_latest_works.php:108
+msgid "All Categories"
+msgstr ""
+
+#: inc/widgets/agni_widget_latest_posts.php:98
+#: inc/widgets/agni_widget_latest_works.php:116
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/agni_widget_latest_works.php:21
+msgid "Halena: Latest Works"
+msgstr ""
+
+#: inc/widgets/agni_widget_latest_works.php:24
+msgid ""
+"Your site's most recent works with unique layout of halena. You can also "
+"display the latest works of particular category."
+msgstr ""
+
+#: inc/widgets/agni_widget_latest_works.php:92
+msgid "Latest Works"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:21
+msgid "Halena: Social Icons"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:24
+msgid ""
+"A set of social icons to display social media links. This is designed only "
+"for halena."
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:121
+msgid "Facebook:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:126
+msgid "Twitter:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:131
+msgid "Google Plus:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:136
+msgid "Dribbble:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:141
+msgid "Instagram:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:146
+msgid "Behance:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:151
+msgid "Pinterest:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:156
+msgid "Flickr:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:161
+msgid "Tumblr:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:166
+msgid "Youtube:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:171
+msgid "Snapchat:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:176
+msgid "SoundCloud:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:181
+msgid "Vimeo:"
+msgstr ""
+
+#: inc/widgets/agni_widget_social_icons.php:186
+msgid "Linkedin:"
+msgstr ""

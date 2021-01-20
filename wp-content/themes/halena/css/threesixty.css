@@ -1,0 +1,57 @@
+.threesixty {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.threesixty .threesixty_images {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.threesixty .threesixty_images img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+.threesixty .threesixty_images img.previous-image {
+  visibility: hidden;
+  width: 0;
+}
+.threesixty .threesixty_images img.current-image {
+  visibility: visible;
+  width: 100%;
+}
+.threesixty .nav_bar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 11;
+}
+.threesixty .nav_bar a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    float: left;
+    text-indent: 2px;
+    overflow: hidden;
+    font-size: 30px;
+    padding: 0px 12px;
+}
+.threesixty .nav_bar a:before {
+  font-family: "linea-music-10";
+}
+.threesixty .nav_bar a.nav_bar_play:before  {
+  content: "r";
+}
+.threesixty .nav_bar a.nav_bar_previous:before  {
+  content: "y";
+}
+.threesixty .nav_bar a.nav_bar_stop:before {
+  content: "q";
+}
+.threesixty .nav_bar a.nav_bar_next:before  {
+  content: "g";
+}

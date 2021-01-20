@@ -1,0 +1,113 @@
+.wcapf-widget-hidden {
+	display: none;
+}
+
+.wcapf-dropdown-nav{
+	padding-bottom: 20px;
+}
+
+/*active filters*/
+.wcapf-active-filters a {
+	display: inline-block;
+	background-color: transparent;
+	padding: 2px 7px;
+	margin: 0px 10px 3px 0;
+	border-radius: 0;
+	border: 1px solid;
+	border-color: #999;
+	font-size: 12px;
+	padding-left:25px;
+	position:relative;
+}
+.wcapf-active-filters a::before {
+	content: "\e680";
+	font-family: "Pe-icon-7-stroke";
+	margin-right: 0.53em;
+	font-size: 20px;
+	position:absolute;
+	left: 2px;
+	top: -5px;
+}
+
+/*layered nav*/
+.widget .wcapf-layered-nav ul {
+	list-style: none;
+	margin-left: 0;
+	padding: 0;
+}
+.wcapf-layered-nav .children {
+	margin: 0.618em 0 0 1.618em!important;
+}
+
+/*price slider*/
+.wcapf-price-filter-wrapper {
+	padding-top: 15px;
+}
+.wcapf-price-filter-wrapper .slider-values p {
+	margin: 0;
+	padding: 0;
+}
+
+/*before updating shop loop styles*/
+.wcapf-before-products {
+	position: relative;
+	z-index: 1;
+}
+
+.wcapf-before-update {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+
+/*dropdown layered nav*/
+.select2-results .depth {
+	display: inline-block;
+}
+.select2-results .depth-1 {
+	margin-left: 15px;
+}
+.select2-results .depth-2 {
+	margin-left: 25px;
+}
+.select2-results .depth-3 {
+	margin-left: 35px;
+}
+.select2-results .depth-4 {
+	margin-left: 45px;
+}
+.select2-results .depth-5 {
+	margin-left: 55px;
+}
+.select2-hidden-accessible {
+	display: none;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	margin: 5px 5px 0 0!important;
+}
+.select2-search {
+	margin-bottom: 0!important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+	/*padding-bottom: 3px;*/
+}
+.select2-search input[type="search"] {
+	padding: inherit;
+	color: inherit;
+	line-height: inherit;
+	-webkit-appearance: none;
+	border-radius: 0;
+	font-weight: normal;
+	box-shadow: inherit;
+}
+.select2-results .depth,
+.select2-container .select2-search--inline,
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	font-size: 0.857em;
+}
+
+/* Attributes filter styles */
+
+/*price filter display type list*/

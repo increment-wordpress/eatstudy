@@ -1,0 +1,65 @@
+.hidden {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.tawcvs-swatches {
+	overflow: hidden;
+}
+
+.tawcvs-swatches .swatch {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-right: 15px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	position: relative;
+}
+
+
+.tawcvs-swatches .swatch.disabled {
+	opacity: 0.1;
+}
+
+.tawcvs-swatches .swatch-color {
+	text-indent: -9999px;
+}
+
+.tawcvs-swatches .swatch-color.selected {
+	border-color: transparent;
+}
+
+.tawcvs-swatches .swatch-color.selected:before {
+	font-family: linea-arrows-10;
+	content: "\e006";
+	font-size: 26px;
+	display: block;
+	position: absolute;
+	top: -1px;
+	left: 7px;
+	color: #ffffff;
+	text-indent: 0;
+}
+
+.tawcvs-swatches .swatch-label {
+	background-color: transparent;
+	border: 1px solid;
+	border-color: #ddd;
+	color: #999;
+}
+.tawcvs-swatches .swatch-label.selected {
+	background-color: #555555;
+	color: #ffffff;
+}
+
+.tawcvs-swatches .swatch-image {
+	overflow: hidden;
+}
