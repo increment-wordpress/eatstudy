@@ -1,0 +1,42 @@
+2021-01-21T07:09:58+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-content\plugins\agni-halena-plugin\inc\extensions\wbc_importer\inc\importer\wordpress-importer.php on line 995
+
+2021-01-21T07:10:37+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\functions.php on line 2728
+
+2021-01-21T07:18:24+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T07:21:10+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-content\plugins\agni-halena-plugin\inc\extensions\wbc_importer\inc\importer\wordpress-importer.php on line 995
+
+2021-01-21T07:23:48+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T07:35:47+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-content\plugins\mailchimp-for-wp\vendor\composer\ClassLoader.php on line 321
+
+2021-01-21T07:37:06+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T07:42:23+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-content\plugins\agni-halena-plugin\inc\extensions\wbc_importer\inc\importer\wordpress-importer.php on line 995
+
+2021-01-21T07:47:43+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T07:47:55+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T07:53:25+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T08:08:20+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T08:10:14+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\class-requests.php on line 145
+
+2021-01-21T08:15:23+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T08:17:55+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T08:22:20+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 420
+
+2021-01-21T08:23:18+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T09:56:25+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T10:09:28+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T10:40:05+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-21T10:59:19+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+

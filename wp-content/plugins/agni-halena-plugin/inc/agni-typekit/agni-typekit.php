@@ -11,7 +11,7 @@ Its a plugin to add Typekit font on WordPress site developed AgniHD based on Cap
 function agni_typekit_embed_code()
 {
 	$agni_typekit_options = get_option( 'agni_typekit_options' );
-	if ( $agni_typekit_options['agni_typekit_id'] != '' ) {
+	if ( !empty($agni_typekit_options['agni_typekit_id']) ) {
 		wp_enqueue_script( 'agni-typekit-id-script', '//use.typekit.net/'. esc_attr( $agni_typekit_options['agni_typekit_id'] ).'.js', array( 'jquery' ), '', false );
 		wp_add_inline_script( 'agni-typekit-id-script', 'try{Typekit.load();}catch(e){}' );
 	}
