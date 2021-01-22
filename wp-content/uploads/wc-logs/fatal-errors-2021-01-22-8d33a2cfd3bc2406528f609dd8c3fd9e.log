@@ -1,0 +1,4 @@
+2021-01-22T00:08:19+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-01-22T01:15:43+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\eatstudy\wp-includes\Requests\Transport\cURL.php on line 163
+

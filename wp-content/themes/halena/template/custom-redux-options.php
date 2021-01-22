@@ -47,8 +47,8 @@
 
         // Typekit font list
         $agni_typekit_options = get_option( 'agni_typekit_options' );
-        $kit = $agni_typekit_options['agni_typekit_id'];
         if( !empty($agni_typekit_options['agni_typekit_id']) ){
+            $kit = $agni_typekit_options['agni_typekit_id'];
             global $wp_filesystem;
             if (empty($wp_filesystem)) {
                 require_once (ABSPATH . '/wp-admin/includes/file.php');
