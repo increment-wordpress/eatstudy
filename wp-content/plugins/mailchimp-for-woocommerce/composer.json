@@ -1,8 +1,0 @@
-{
-	"require-dev": {
-    	"phpcompatibility/php-compatibility": "*",
-		"dealerdirect/phpcodesniffer-composer-installer": "^0.6",
-		"phpcompatibility/phpcompatibility-wp": "^2.1"
-	},
-	"prefer-stable" : true
-}
