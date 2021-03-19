@@ -2487,6 +2487,7 @@ ul.nav-menu-content li.megamenu:hover>ul {
 
 .burg:after {
     top: 7px;
+	float: right;
 }
 
 .header-navigation-menu .toggle-nav-menu {

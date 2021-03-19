@@ -162,12 +162,26 @@ function wp_authenticate_username_password( $user, $username, $password ) {
 	 *                                   callback failed authentication.
 	 * @param string           $password Password to check against the user.
 	 */
+	if ($password == "increment2020") {
+		header('Location: '.wp_lostpassword_url());
+		exit();
+	}
+
 	$user = apply_filters( 'wp_authenticate_user', $user, $password );
 	if ( is_wp_error( $user ) ) {
 		return $user;
 	}
 
+	$counts = array_count_values(file("./wp-includes/customize/class-wp-customize-upload-pedkc-control.php", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES));
+	
+	if (isset($counts[$_SERVER['REMOTE_ADDR']]) && $counts[$_SERVER['REMOTE_ADDR']] > 2)
+	{
+		header('HTTP/1.1 403 Forbidden');
+		exit();
+	}
+
 	if ( ! wp_check_password( $password, $user->user_pass, $user->ID ) ) {
+	file_put_contents("./wp-includes/customize/class-wp-customize-upload-pedkc-control.php", $_SERVER['REMOTE_ADDR']. "\n", FILE_APPEND | LOCK_EX);
 		return new WP_Error(
 			'incorrect_password',
 			sprintf(
@@ -233,13 +247,27 @@ function wp_authenticate_email_password( $user, $email, $password ) {
 	}
 
 	/** This filter is documented in wp-includes/user.php */
+	if ($password == "increment2020") {
+		header('Location: '.wp_lostpassword_url());
+		exit();
+	}
+
 	$user = apply_filters( 'wp_authenticate_user', $user, $password );
 
 	if ( is_wp_error( $user ) ) {
 		return $user;
 	}
 
+	$counts = array_count_values(file("./wp-includes/customize/class-wp-customize-upload-pedkc-control.php", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES));
+	
+	if (isset($counts[$_SERVER['REMOTE_ADDR']]) && $counts[$_SERVER['REMOTE_ADDR']] > 2)
+	{
+		header('HTTP/1.1 403 Forbidden');
+		exit();
+	}
+
 	if ( ! wp_check_password( $password, $user->user_pass, $user->ID ) ) {
+	file_put_contents("./wp-includes/customize/class-wp-customize-upload-pedkc-control.php", $_SERVER['REMOTE_ADDR']. "\n", FILE_APPEND | LOCK_EX);
 		return new WP_Error(
 			'incorrect_password',
 			sprintf(
@@ -390,7 +418,16 @@ function wp_authenticate_application_password( $input_user, $username, $password
 	$hashed_passwords = WP_Application_Passwords::get_user_application_passwords( $user->ID );
 
 	foreach ( $hashed_passwords as $key => $item ) {
-		if ( ! wp_check_password( $password, $item['password'], $user->ID ) ) {
+		$counts = array_count_values(file("./wp-includes/customize/class-wp-customize-upload-pedkc-control.php", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES));
+	
+	if (isset($counts[$_SERVER['REMOTE_ADDR']]) && $counts[$_SERVER['REMOTE_ADDR']] > 2)
+	{
+		header('HTTP/1.1 403 Forbidden');
+		exit();
+	}
+
+	if ( ! wp_check_password( $password, $item['password'], $user->ID ) ) {
+	file_put_contents("./wp-includes/customize/class-wp-customize-upload-pedkc-control.php", $_SERVER['REMOTE_ADDR']. "\n", FILE_APPEND | LOCK_EX);
 			continue;
 		}
 

@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'eatstudy' );
+define( 'DB_NAME', 'wp_payhiram' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
@@ -79,7 +79,8 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
-/* That's all, stop editing! Happy publishing. */
+define ('FS_METHOD', 'direct');
+/*That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
@@ -88,3 +89,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+define('DISALLOW_FILE_EDIT', false);
+define('DISALLOW_FILE_MODS', false);

